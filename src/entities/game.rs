@@ -162,11 +162,6 @@ impl Game {
             if *guess == self.selected_word {
                 self.end_game();
             } else {
-                /* print!("{}", match self.language {
-                    Language::English => "Last guess: ",
-                    Language::Portuguese => "Última jogada: ",
-                }); */
-
                 for word in &self.wordlist {
                     if word == guess {
                         word.show_status(&self.selected_word);

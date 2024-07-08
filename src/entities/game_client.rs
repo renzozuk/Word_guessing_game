@@ -140,11 +140,6 @@ impl<'a> GameClient<'a> {
             if *guess == self.game_config.selected_word {
                 self.end_game();
             } else {
-                /* print!("{}", match self.game_config.language {
-                    Language::English => "Last guess: ",
-                    Language::Portuguese => "Última jogada: ",
-                }); */
-
                 for word in &self.wordlist {
                     if word == guess {
                         word.show_status(&self.game_config.selected_word);
