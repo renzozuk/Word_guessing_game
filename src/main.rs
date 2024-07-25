@@ -7,6 +7,7 @@ mod entities;
 use bincode::deserialize;
 use clearscreen::clear;
 use entities::{GameClient, GameConfig};
+use local_ip_address::local_ip;
 
 use crate::entities::{Difficulty, Game, Language, Player, Word};
 
@@ -22,8 +23,10 @@ fn main() {
 
         let (username, language, difficulty): (String, Language, Difficulty) = config_game();
 
-
         clear().unwrap();
+      
+        let my_local_ip = local_ip().unwrap();
+        println!("Your IP address / Seu endereço IP: {:?}", my_local_ip);
         println!("Waiting for the second player... / Esperando o segundo jogador...");
         let listener = TcpListener::bind("0.0.0.0:6000").expect("Listener failed");
 
