@@ -48,6 +48,7 @@ alvoroço
 amargura
 ambiente
 amenizar
+amendoim
 amistoso
 amálgama
 analisar
@@ -129,6 +130,7 @@ boutique
 brandura
 bucólico
 burlesco
+cabeçote
 cabuloso
 cachorro
 cadência
@@ -655,6 +657,8 @@ obséquio
 obtenção
 odisseia
 oferecer
+olímpica
+olímpico
 onanismo
 opcional
 operário
