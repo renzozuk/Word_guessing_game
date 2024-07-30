@@ -50,6 +50,7 @@ ambiente
 amenizar
 amendoim
 amistoso
+amizades
 amálgama
 analisar
 analogia
@@ -173,6 +174,7 @@ comporta
 composto
 comprazo
 comprido
+computar
 comungar
 comunhão
 conceber
@@ -953,6 +955,7 @@ tangente
 tangível
 taxativo
 teimosia
+telefone
 telúrico
 temporal
 temática

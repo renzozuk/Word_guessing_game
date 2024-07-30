@@ -115,6 +115,7 @@ deserve
 despite
 destroy
 develop
+diamond
 digital
 discuss
 disease
@@ -176,6 +177,7 @@ gallery
 general
 genetic
 gesture
+gravity
 grocery
 growing
 habitat

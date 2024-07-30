@@ -145,6 +145,8 @@ amenas
 amenos
 amidos
 amigar
+amigos
+amigas
 amimar
 amiúde
 amolar
@@ -2693,6 +2695,7 @@ sondar
 soneca
 soneto
 sonhar
+sonhos
 sonora
 sonoro
 sonsas
